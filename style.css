@@ -1,0 +1,23 @@
+.btn-success:hover {
+  transition: all 1s !important;
+  background-color: red !important;
+}
+
+canvas {
+  animation: e;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+h3 {
+  font-size: 25px !important;
+}
+
+@keyframes e {
+  from {
+    box-shadow: 1px 1px 38px rgb(255, 0, 0);
+  }
+  to {
+    box-shadow: 1px 1px 38px rgb(217, 255, 0);
+  }
+}
